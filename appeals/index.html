@@ -1,23 +1,76 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Appeal Form</title>
+    <title>Main page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .search-container {
+            text-align: center;
+        }
+
+        .search-input {
+            padding: 10px;
+            font-size: 16px;
+        }
+
+        .search-button {
+            display: block;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #4285f4;
+            color: #ffffff;
+            border: none;
+            cursor: pointer;
+        }
+        
+h1{
+    color: blue;
+    font-family: "Comic Sans MS", cursive;
+    text-align: center;
+}
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background-color: #007bff;
+    color: #ffffff;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+        h5{
+            display: block;
+            position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px;
+    border: 2px solid green; /* Add a 2px solid black border, adjust as needed */
+    padding: 8px;
+        };
+    </style>
 </head>
 <body>
-    <h2>Appeal Form</h2>
-    <form action="process_form.php" method="post">
-        <label for="name">Your Name:</label>
-        <input type="text" id="name" name="name" required><br>
-
-        <label for="email">Your Email:</label>
-        <input type="email" id="email" name="email" required><br>
-
-        <label for="appeal">Your Appeal:</label>
-        <textarea id="appeal" name="appeal" required></textarea><br>
-
-        <input type="submit" value="Submit">
-    </form>
+    <h5>a page made by neo vr</h5>
+    <div>
+        <h1>choose your appeal</h1>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdgsZAxuM0gd5Fc7xC_fI-Oa2f_tso0E5u_L1gGQ-RYe-89cQ/viewform?embedded=true" width="640" height="1714" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    </div>
 </body>
 </html>
